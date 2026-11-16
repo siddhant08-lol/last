@@ -176,6 +176,12 @@ nav ul li a{
 .blue{
     border-color:#d9f4fb;
 }
+.yellow{
+    border-color:#fbf1b8;
+}
+.pink{
+    border-color:#fbeafa;
+}
 
 .pc a{
     width:100%;
@@ -183,8 +189,65 @@ nav ul li a{
     margin-top:auto;
 }
 
+
+
 .pc img{
     width:100%;
     height:100%;
     object-fit:cover;
 }
+
+.project-section{
+    padding:100px 5% 60px;
+}
+
+.project-section h2{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:center;
+}
+
+.project-section h2 span{
+    color:#e8c98b;
+}
+
+.project-section .wg{
+    grid-template-columns:repeat(3,1fr);
+    max-width:100%;
+}
+
+.about-section h2  span{
+    color:#e8c98b;
+}
+
+.about-section {
+    padding:100px 5% 60px;
+}
+
+.about-section h2{
+    text-align:center;
+    font-size:2.8rem;
+    margin-bottom:45px;
+}
+
+.about-section p {
+    max-width:950px;
+    margin:0 auto 30px;
+    font-size:1.3rem;
+    line-height:2;
+    color:#68636a;
+}
+
+.about-section p span{
+    color:#d6a94f;
+    font-weight:700;
+}
+
+@media (max-width:6000px){
+    .about-section p {
+        font-size:1.05rem;
+        line-height:1.9;
+    }
+}
+
+

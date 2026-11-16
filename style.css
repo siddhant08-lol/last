@@ -1,0 +1,63 @@
+*{
+    font-family:'Short Stack', cursive;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#faf7f0;
+}
+
+
+    .logo {
+    position: fixed;
+    top: 25px;
+    left: 4%;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+nav {
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 30px;
+    background: #fce4ec;
+    border: 1px solid #e5e0d8;
+    border-radius: 20px;
+
+    z-index: 1000;
+
+    
+}
+
+.logo{
+font-size:1.8rem;
+font-weight:700;
+
+
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:2rem;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:600;
+    font-size:1rem;
+    padding:0;
+    border-radius:8px;
+    transition:all 0.3s ease;
+    position:relative;
+
+}
